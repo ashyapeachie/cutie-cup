@@ -39,7 +39,6 @@ p{
     letter-spacing:.1rem;
 }
 
-/* page */
 .scene{
     text-align:center;
 }
@@ -52,6 +51,7 @@ p{
     margin:4rem auto 0;
 }
 
+/* cup */
 .cup {
     position:absolute;
     left:50%;
@@ -121,6 +121,8 @@ p{
     height: 18px;
     border-radius: 50%;
     background: var(--glass);
+
+    animation: steam 4s infinite;
 }
 
 @keyframes steam {
