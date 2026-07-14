@@ -84,6 +84,18 @@ p{
     background:white;
 }
 
+.liquid::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10%;
+    width: 120%;
+    height: 25px;
+
+    background: var(--matcha);
+    border-radius: 50%;
+}
+
 .straw {
     position:absolute;
     left:50%;
