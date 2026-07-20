@@ -61,10 +61,10 @@ p{
 
     width:170px;
     height:220px;
-    border-radius:18px 18px 40px 40px;
+    border-radius:24px 24px 55px 55px;
     background:var(--glass);
 
-    overflow:hidden;
+    overflow: visible;
 }
 
 .liquid {
@@ -78,7 +78,7 @@ p{
 
 .lid {
     position:absolute;
-    top:0;
+    top:50px;
     width:100%;
     height:28px;
 
@@ -120,8 +120,8 @@ p{
     height: 28px;
     border-radius: 50%;
     background: var(--shadow);
-    opacity: .35;
-    filter: blur(8px);
+    opacity: .3;
+    filter: blur(12px);
 }
 
 /* steam animation */
@@ -161,11 +161,11 @@ p{
     }
 
     50%{
-        opacity:.8;
+        opacity:.7;
     }
 
     100%{
         opacity:0;
-        transform:translateY(-70px) scale(1.5);
+        transform:translateY(-60px) scale(1.4);
     }
 }
