@@ -49,12 +49,12 @@ p{
     width:300px;
     height:420px;
 
-    margin:4rem auto 0;
+    margin: auto;
 }
 
 /* cup */
 .cup {
-    position:absolute;
+    position: absolute;
     left:50%;
     bottom:60px;
     transform:translateX(-50%);
@@ -64,7 +64,7 @@ p{
     border-radius:24px 24px 55px 55px;
     background:var(--glass);
 
-    overflow: visible;
+    overflow: hidden;
 }
 
 .liquid {
@@ -98,11 +98,12 @@ p{
 }
 
 .straw {
-    position:absolute;
+    position: absolute;
     left:50%;
     top:-90px;
-    transform: translateX(-50%);
-    transform: rotate(-5deg);
+    transform: 
+        translateX(-50%)
+        rotate(-6deg);
 
     width:12px;
     height:110px;
