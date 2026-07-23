@@ -77,12 +77,14 @@ p{
 }
 
 .lid {
-    position:absolute;
-    top:50px;
+    position: absolute;
+    top: 0;
+    left: 0;
     width:100%;
     height:28px;
 
-    background:white;
+    background: var(--glass);
+    z-index: 3;
 }
 
 .liquid::before {
@@ -99,16 +101,17 @@ p{
 
 .straw {
     position: absolute;
-    left:50%;
-    top:-90px;
+    left: 50%;
+    bottom: 240px;
     transform: 
         translateX(-50%)
-        rotate(-6deg);
+        rotate(-8deg);
 
     width:12px;
     height:110px;
     background:var(--straw);
     border-radius: 999px;
+    z-index: 1;
 }
 
 .shadow {
